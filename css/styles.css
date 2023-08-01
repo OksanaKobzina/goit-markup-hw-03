@@ -1,0 +1,245 @@
+:root {
+  /** Fonts */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  /** Colors */
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --white: #fff;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--white);
+  color: var(--slate);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/** Header section */
+
+.header-logo {
+  color: var(--iris);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-excerpt {
+  color: var(--navyblue);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-link {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
+}
+
+.header-address {
+  font-style: normal;
+}
+.header-address-link {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--ocean);
+}
+
+/** Hero section Studio*/
+
+.hero {
+  background-color: var(--navyblue);
+}
+
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  font-family: var(--primary-font);
+  background-color: var(--iris);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean);
+}
+
+/** Feature section Studio*/
+
+.feature-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.feature-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/**  Task section Studio*/
+
+.task-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/** Team section Studio*/
+
+.team {
+  background-color: var(--cloud);
+}
+
+.team-item {
+  background-color: var(--white);
+}
+
+.team-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-subtitle {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/** Portfolio section */
+
+.hero-filters-btn {
+  font-family: var(--primary-font);
+  background-color: var(--cloud);
+  color: var(--iris);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-filters-btn:hover,
+.hero-filters-btn:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+.portfolio-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/** Footer section */
+
+.footer {
+  background-color: var(--navyblue);
+}
+
+.footer-link {
+  color: var(--iris);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-excerpt {
+  color: var(--cloud);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
